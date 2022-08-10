@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    padding-right: 20px;
+}
+
+input {
+    width: 99.5%;
+    margin-bottom: .6rem;
+    padding: 5px;
+    border: 1px solid #5f9341;
+
+}
+
+button {
+    color: white;
+    font-weight: 700;
+    background-color: #5f9341;
+    border: none;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: #59883d;
+}
+
+button:active {
+    background-color: #67a047;
+}
+
+#copyclip-btn, #clear-btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#clear-btn {
+    background-color: rgb(211, 35, 35);
+}
+
+#clear-btn:hover {
+    background-color: rgb(202, 36, 36);
+}
+
+li {
+    color: #5f9341;
+    margin-bottom: 7px;
+    font-size: 1.2em;
+    list-style-type: none;
+}
